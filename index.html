@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Zote Form</title>
+  </head>
+  <body>
+  <div class="container">
+    <h1 id="title">Do you think Zote is the best?</h1>
+    <p id="description"><strong>Zote</strong>, also known as <em>Zote the Mighty</em> is a character in the videogame Hollow Knight. He is not the main character. We'd like your opinion on if he's the best.</p>
+    <h2 id="notes">Some things to consider:</h2>
+    <ul>
+      <li>If you don't save him at the beginning of the game, he'll die.</li>
+      <li>His nail(sword), <em>Life Ender</em> is handmade and does no damage to the main character.</li>
+      <li>He <strong>DOES</strong> make it to all areas before you do.</li>
+      <li>He is incredibly brave.</li>
+      <li>No matter how many time you hit him, he cannot die.</li>
+    </ul>
+    <h2>Begin the Eternal Ordeal</h2>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" for="name">Name:<input Required id="name" type="text" placeholder="Zote the Mighty"> </input></label>
+      <label id="email-label" for="email">Email:<input Required id="email" type="email" placeholder="zote@teamcherry.com" /></label>
+      <label id="number-label" for="number">Favorite of the 57 <a href="https://i.redd.it/uhgtt455sl771.jpg">Precepts</a>: <input id="number" type="number" min="1" max="57" placeholder="57"></input></label>
+      </fieldset>
+      <fieldset>
+        <label for="dropdown" />Your opinion of Zote:<select id="dropdown">
+          <option value="">(Your Opinion)</option>
+          <option value="1">I live my life by Zote's precepts</option>
+          <option value="2">I think Zote is the best character of all time</option>
+          <option value="3">I think Zote is the best character in Hollow Knight</option>
+          <option value="4">He's pretty cool, I guess...</option>
+          <option value="5">Take em' or leave em'</option>
+          <option value="6">Don't care for him</option>
+          <option value="7">Zote is literally a steaming pile of trash!!!</option>
+        </select>
+        <h2>What words do you think best fit Zote?</h2>
+         <label for="Invincible"><input id="Invincible" type="checkbox" name="zote-description" class="inline" value="Invincible" checked />Invincible</label>
+         <label for="Fearless"><input id="Fearless" type="checkbox" name="zote-description" class="inline" value="Fearless" checked />Fearless</label>
+         <label for="Sensual"><input id="Sensual" type="checkbox" name="zote-description" class="inline" value="Sensual" checked />Sensual</label>
+         <label for="Mysterious"><input id="Mysterious" type="checkbox" name="zote-description" class="inline" value="Mysterious" checked />Mysterious</label>
+         <label for="Enchanting"><input id="Enchanting" type="checkbox" name="zote-description" class="inline" value="Enchanting" checked />Enchanting</label>
+         <label for="Vigorous"><input id="Vigorous" type="checkbox" name="zote-description" class="inline" value="Vigorous" checked />Vigorous</label>
+         <label for="Diligent"><input id="Diligent" type="checkbox" name="zote-description" class="inline" value="Diligent" checked />Diligent</label>
+         <label for="Overwhelming"><input id="Overwhelming" type="checkbox" name="zote-description" class="inline" value="Overwhelming" checked />Overwhelming</label>
+         <label for="Gorgeous"><input id="Gorgeous" type="checkbox" name="zote-description" class="inline" value="Gorgeous" checked />Gorgeous</label>
+         <label for="Passionate"><input id="Passionate" type="checkbox" name="zote-description" class="inline" value="Passionate" checked />Passionate</label>
+         <label for="Terrifying"><input id="Terrifying" type="checkbox" name="zote-description" class="inline" value="Terrifying" checked />Terrifying</label>
+         <label for="Beautiful"><input id="Beautiful" type="checkbox" name="zote-description" class="inline" value="Beautiful" checked />Beautiful</label>
+         <label for="Powerful"><input id="Powerful" type="checkbox" name="zote-description" class="inline" value="Powerful" checked />Powerful</label>
+         </fieldset>
+         <fieldset>
+        <h2>Do you think Zote's the best?</h2>
+        <label for="right-opinion"><input id="right-opinion" type="radio" name="opinion" class="inline" value="Person of Culture" checked />Zote is the best</label>
+        <label for="wrong-opinion"><input id="wrong-opinion" type="radio" name="opinion" class="inline" value="Uncultured Swine" />Zote is not the best</label>
+      </fieldset>
+      <h2>Please recite your favorite precept</h2>
+         <label for="precept">Precept:
+          <textarea id="precept" name="precept" rows="5" cols="30" placeholder="Precept #13: Never be afraid. Fear can only hold you back. Facing your fears can be a tremendous effort. Therefore, you should just not be afraid in the first place."></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit" />
+    </form>
+    
+    </div>
+    <footer>
+      <p>Zote belongs to <a href="https://www.teamcherry.com.au/">Team Cherry</a></p>
+      <h4>Design by Retro Octopus Studios</h5>
+    </footer>
+  </body>
+</html> 
